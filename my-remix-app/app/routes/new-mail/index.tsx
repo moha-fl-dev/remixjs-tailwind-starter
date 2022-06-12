@@ -27,6 +27,7 @@ export const action: ActionFunction = async ({request}) => {
     return convertToNewMail
 }
 
+// renderFunction that returns the data to be rendered I.E the html of the page
 export default function NewMail() {
 
     // Formdata is a promise that resolves to a FormData object when the form is submitted
